@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1210"
+   LastUpgradeVersion = "1340"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -10,13 +10,13 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "&#10;">
+               scriptText = "## Type a script or drag a script file from your workspace to insert its path.&#10;## Type a script or drag a script file from your workspace to insert its path.&#10;#cp -r &quot;${PROJECT_DIR}/${PRODUCT_NAME}/GoogleServices/Staging/GoogleService-Info.plist&quot; &quot;${PROJECT_DIR}/${PRODUCT_NAME}/GoogleService-Info.plist&quot;&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-                     BuildableName = "firebase_multiple_envs.app"
-                     BlueprintName = "firebase_multiple_envs"
+                     BlueprintIdentifier = "27A8DC2A28B39CDC0096BBBD"
+                     BuildableName = "firebase_multiple_envs staging.app"
+                     BlueprintName = "firebase_multiple_envs staging"
                      ReferencedContainer = "container:firebase_multiple_envs.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -28,13 +28,13 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;cp -r &quot;${PROJECT_DIR}/${PRODUCT_NAME}/GoogleService-Info-Production.plist&quot; &quot;${BUILD_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist&quot;&#10;">
+               scriptText = "# Type a script or drag a script file from your workspace to insert its path.&#10;cp -r &quot;${PROJECT_DIR}/${PRODUCT_NAME}/GoogleService-Info-Staging.plist&quot; &quot;${BUILD_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist&quot;&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-                     BuildableName = "firebase_multiple_envs.app"
-                     BlueprintName = "firebase_multiple_envs"
+                     BlueprintIdentifier = "27A8DC2A28B39CDC0096BBBD"
+                     BuildableName = "firebase_multiple_envs staging.app"
+                     BlueprintName = "firebase_multiple_envs staging"
                      ReferencedContainer = "container:firebase_multiple_envs.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -50,9 +50,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "firebase_multiple_envs.app"
-               BlueprintName = "firebase_multiple_envs"
+               BlueprintIdentifier = "27A8DC2A28B39CDC0096BBBD"
+               BuildableName = "firebase_multiple_envs staging.app"
+               BlueprintName = "firebase_multiple_envs staging"
                ReferencedContainer = "container:firebase_multiple_envs.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -64,16 +64,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "firebase_multiple_envsTests.xctest"
-               BlueprintName = "firebase_multiple_envsTests"
-               ReferencedContainer = "container:firebase_multiple_envs.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -90,9 +80,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "firebase_multiple_envs.app"
-            BlueprintName = "firebase_multiple_envs"
+            BlueprintIdentifier = "27A8DC2A28B39CDC0096BBBD"
+            BuildableName = "firebase_multiple_envs staging.app"
+            BlueprintName = "firebase_multiple_envs staging"
             ReferencedContainer = "container:firebase_multiple_envs.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -107,9 +97,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "firebase_multiple_envs.app"
-            BlueprintName = "firebase_multiple_envs"
+            BlueprintIdentifier = "27A8DC2A28B39CDC0096BBBD"
+            BuildableName = "firebase_multiple_envs staging.app"
+            BlueprintName = "firebase_multiple_envs staging"
             ReferencedContainer = "container:firebase_multiple_envs.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

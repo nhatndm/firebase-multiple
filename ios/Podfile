@@ -6,7 +6,7 @@ install! 'cocoapods', :deterministic_uuids => false
 
 production = ENV["PRODUCTION"] == "1"
 
-target 'firebase_multiple_envs' do
+abstract_target 'firebase_multiple_envsCommon' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -23,9 +23,33 @@ target 'firebase_multiple_envs' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'Firebase', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
+  pod 'FirebaseCoreInternal', :modular_headers => true  
+  pod 'FirebaseAnalytics', :modular_headers => true  
+  pod 'FirebaseStorageInternal', :modular_headers => true
+  pod 'FirebaseCoreExtension', :modular_headers => true
+  pod 'FirebaseAppCheckInterop', :modular_headers => true
+  pod 'FirebaseAuthInterop', :modular_headers => true
+  pod 'FirebaseMessagingInterop', :modular_headers => true
+  pod 'GTMSessionFetcher', :modular_headers => true
+  pod 'FirebaseAppCheckInterop', :modular_headers => true
+  pod 'FirebaseAuthInterop', :modular_headers => true
+  pod 'GoogleUtilities', :modular_headers => true
+  pod 'FirebaseABTesting', :modular_headers => true
+  pod 'FirebasePerformance', :modular_headers => true
+  pod 'FirebaseRemoteConfig', :modular_headers => true
+
+  target 'firebase_multiple_envs' do
+    inherit! :complete
+  end
+
+  target 'firebase_multiple_envs staging' do
+    inherit! :complete
+  end
+
   target 'firebase_multiple_envsTests' do
     inherit! :complete
-    # Pods for testing
   end
 
   post_install do |installer|

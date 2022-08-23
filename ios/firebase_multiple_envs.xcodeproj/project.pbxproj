@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* firebase_multiple_envsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* firebase_multiple_envsTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-firebase_multiple_envs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-firebase_multiple_envs.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-firebase_multiple_envs-firebase_multiple_envsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-firebase_multiple_envs-firebase_multiple_envsTests.a */; };
+		2712D58E28B4597C0007C17E /* GoogleService-Info-Staging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2712D58D28B4597C0007C17E /* GoogleService-Info-Staging.plist */; };
+		2712D59628B45DB20007C17E /* GoogleService-Info-Production.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2712D59528B45DB20007C17E /* GoogleService-Info-Production.plist */; };
+		27A8DC2E28B39CDC0096BBBD /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		27A8DC2F28B39CDC0096BBBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		27A8DC3328B39CDC0096BBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		27A8DC3428B39CDC0096BBBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		7C768E4867841C452B8DC65A /* libPods-firebase_multiple_envsCommon-firebase_multiple_envsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0744C47BC2E13DB84F9A2E6 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envsTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B865A1C1FFEE152EC89903A7 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351DB86C71CFBFF1E28A9E11 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs.a */; };
+		F1820E8FF728C9601BEF8466 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs staging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F45CF25073C01273DDA818 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs staging.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +43,24 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = firebase_multiple_envs/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = firebase_multiple_envs/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = firebase_multiple_envs/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-firebase_multiple_envs-firebase_multiple_envsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_multiple_envs-firebase_multiple_envsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-firebase_multiple_envs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envs.debug.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-firebase_multiple_envs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envs.release.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs.release.xcconfig"; sourceTree = "<group>"; };
+		1ED345C38879FA438C6F4AE9 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.release.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.release.xcconfig"; sourceTree = "<group>"; };
+		2705672594D6E6441CEBB5F6 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.release.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.release.xcconfig"; sourceTree = "<group>"; };
+		2712D58D28B4597C0007C17E /* GoogleService-Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Staging.plist"; sourceTree = "<group>"; };
+		2712D59528B45DB20007C17E /* GoogleService-Info-Production.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Production.plist"; sourceTree = "<group>"; };
+		27A8DC3C28B39CDC0096BBBD /* firebase_multiple_envs staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebase_multiple_envs staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A8DC3D28B39CDC0096BBBD /* firebase_multiple_envs staging.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "firebase_multiple_envs staging.plist"; path = "/Users/sin/Desktop/Jitera/firebase_multiple_envs/ios/firebase_multiple_envs staging.plist"; sourceTree = "<absolute>"; };
+		351DB86C71CFBFF1E28A9E11 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_multiple_envsCommon-firebase_multiple_envs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A487AEAE117BFE38CA933C4 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envsCommon-firebase_multiple_envs.release.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs/Pods-firebase_multiple_envsCommon-firebase_multiple_envs.release.xcconfig"; sourceTree = "<group>"; };
+		4D693F1A7ECC8A0B13B6BBB8 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envsCommon-firebase_multiple_envs.debug.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs/Pods-firebase_multiple_envsCommon-firebase_multiple_envs.debug.xcconfig"; sourceTree = "<group>"; };
+		55F45CF25073C01273DDA818 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs staging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_multiple_envsCommon-firebase_multiple_envs staging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7EB9410499542E8C5724F5 /* Pods-firebase_multiple_envs-firebase_multiple_envsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envs-firebase_multiple_envsTests.debug.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envs-firebase_multiple_envsTests/Pods-firebase_multiple_envs-firebase_multiple_envsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-firebase_multiple_envs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_multiple_envs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81156FA477932808BFE26060 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.debug.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = firebase_multiple_envs/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-firebase_multiple_envs-firebase_multiple_envsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envs-firebase_multiple_envsTests.release.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envs-firebase_multiple_envsTests/Pods-firebase_multiple_envs-firebase_multiple_envsTests.release.xcconfig"; sourceTree = "<group>"; };
+		92C12F09E9B536744336DDAB /* Pods-firebase_multiple_envs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envs.debug.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs.debug.xcconfig"; sourceTree = "<group>"; };
+		92E91617B567353C1885C2AB /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.debug.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.debug.xcconfig"; sourceTree = "<group>"; };
+		A00598396D943A4E906171F9 /* Pods-firebase_multiple_envs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_multiple_envs.release.xcconfig"; path = "Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs.release.xcconfig"; sourceTree = "<group>"; };
+		A0744C47BC2E13DB84F9A2E6 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebase_multiple_envsCommon-firebase_multiple_envsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-firebase_multiple_envs-firebase_multiple_envsTests.a in Frameworks */,
+				7C768E4867841C452B8DC65A /* libPods-firebase_multiple_envsCommon-firebase_multiple_envsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-firebase_multiple_envs.a in Frameworks */,
+				B865A1C1FFEE152EC89903A7 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A8DC3028B39CDC0096BBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1820E8FF728C9601BEF8466 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs staging.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +112,8 @@
 		13B07FAE1A68108700A75B9A /* firebase_multiple_envs */ = {
 			isa = PBXGroup;
 			children = (
+				2712D58D28B4597C0007C17E /* GoogleService-Info-Staging.plist */,
+				2712D59528B45DB20007C17E /* GoogleService-Info-Production.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -100,8 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-firebase_multiple_envs.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-firebase_multiple_envs-firebase_multiple_envsTests.a */,
+				351DB86C71CFBFF1E28A9E11 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs.a */,
+				55F45CF25073C01273DDA818 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envs staging.a */,
+				A0744C47BC2E13DB84F9A2E6 /* libPods-firebase_multiple_envsCommon-firebase_multiple_envsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +151,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				27A8DC3D28B39CDC0096BBBD /* firebase_multiple_envs staging.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +163,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* firebase_multiple_envs.app */,
 				00E356EE1AD99517003FC87E /* firebase_multiple_envsTests.xctest */,
+				27A8DC3C28B39CDC0096BBBD /* firebase_multiple_envs staging.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +171,16 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-firebase_multiple_envs.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-firebase_multiple_envs.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-firebase_multiple_envs-firebase_multiple_envsTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-firebase_multiple_envs-firebase_multiple_envsTests.release.xcconfig */,
+				92C12F09E9B536744336DDAB /* Pods-firebase_multiple_envs.debug.xcconfig */,
+				A00598396D943A4E906171F9 /* Pods-firebase_multiple_envs.release.xcconfig */,
+				4D693F1A7ECC8A0B13B6BBB8 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs.debug.xcconfig */,
+				4A487AEAE117BFE38CA933C4 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs.release.xcconfig */,
+				92E91617B567353C1885C2AB /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.debug.xcconfig */,
+				2705672594D6E6441CEBB5F6 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.release.xcconfig */,
+				81156FA477932808BFE26060 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.debug.xcconfig */,
+				1ED345C38879FA438C6F4AE9 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -194,6 +231,28 @@
 			productReference = 13B07F961A680F5B00A75B9A /* firebase_multiple_envs.app */;
 			productType = "com.apple.product-type.application";
 		};
+		27A8DC2A28B39CDC0096BBBD /* firebase_multiple_envs staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A8DC3928B39CDC0096BBBD /* Build configuration list for PBXNativeTarget "firebase_multiple_envs staging" */;
+			buildPhases = (
+				FC0B4A500CB341CD1784EC8C /* [CP] Check Pods Manifest.lock */,
+				27A8DC2C28B39CDC0096BBBD /* Start Packager */,
+				27A8DC2D28B39CDC0096BBBD /* Sources */,
+				27A8DC3028B39CDC0096BBBD /* Frameworks */,
+				27A8DC3228B39CDC0096BBBD /* Resources */,
+				27A8DC3528B39CDC0096BBBD /* Bundle React Native code and images */,
+				42744DF6A1C268B98561DAC4 /* [CP] Embed Pods Frameworks */,
+				E3723D547384089742D5F26C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "firebase_multiple_envs staging";
+			productName = firebase_multiple_envs;
+			productReference = 27A8DC3C28B39CDC0096BBBD /* firebase_multiple_envs staging.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,6 +285,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* firebase_multiple_envs */,
 				00E356ED1AD99517003FC87E /* firebase_multiple_envsTests */,
+				27A8DC2A28B39CDC0096BBBD /* firebase_multiple_envs staging */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +304,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2712D59628B45DB20007C17E /* GoogleService-Info-Production.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A8DC3228B39CDC0096BBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2712D58E28B4597C0007C17E /* GoogleService-Info-Staging.plist in Resources */,
+				27A8DC3328B39CDC0096BBBD /* LaunchScreen.storyboard in Resources */,
+				27A8DC3428B39CDC0096BBBD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,15 +343,67 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs/Pods-firebase_multiple_envsCommon-firebase_multiple_envs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs/Pods-firebase_multiple_envsCommon-firebase_multiple_envs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs/Pods-firebase_multiple_envsCommon-firebase_multiple_envs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27A8DC2C28B39CDC0096BBBD /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27A8DC3528B39CDC0096BBBD /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		42744DF6A1C268B98561DAC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -298,7 +421,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebase_multiple_envs-firebase_multiple_envsTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -320,7 +443,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebase_multiple_envs-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-firebase_multiple_envsCommon-firebase_multiple_envs-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,15 +456,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs-firebase_multiple_envsTests/Pods-firebase_multiple_envs-firebase_multiple_envsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs-firebase_multiple_envsTests/Pods-firebase_multiple_envs-firebase_multiple_envsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs-firebase_multiple_envsTests/Pods-firebase_multiple_envs-firebase_multiple_envsTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -350,15 +473,32 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs/Pods-firebase_multiple_envsCommon-firebase_multiple_envs-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs/Pods-firebase_multiple_envsCommon-firebase_multiple_envs-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs/Pods-firebase_multiple_envs-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs/Pods-firebase_multiple_envsCommon-firebase_multiple_envs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3723D547384089742D5F26C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -367,15 +507,37 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs-firebase_multiple_envsTests/Pods-firebase_multiple_envs-firebase_multiple_envsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs-firebase_multiple_envsTests/Pods-firebase_multiple_envs-firebase_multiple_envsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envs-firebase_multiple_envsTests/Pods-firebase_multiple_envs-firebase_multiple_envsTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests/Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0B4A500CB341CD1784EC8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -417,6 +579,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27A8DC2D28B39CDC0096BBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A8DC2E28B39CDC0096BBBD /* AppDelegate.mm in Sources */,
+				27A8DC2F28B39CDC0096BBBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -430,7 +601,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-firebase_multiple_envs-firebase_multiple_envsTests.debug.xcconfig */;
+			baseConfigurationReference = 81156FA477932808BFE26060 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +628,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-firebase_multiple_envs-firebase_multiple_envsTests.release.xcconfig */;
+			baseConfigurationReference = 1ED345C38879FA438C6F4AE9 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +652,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-firebase_multiple_envs.debug.xcconfig */;
+			baseConfigurationReference = 4D693F1A7ECC8A0B13B6BBB8 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -508,7 +679,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-firebase_multiple_envs.release.xcconfig */;
+			baseConfigurationReference = 4A487AEAE117BFE38CA933C4 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -526,6 +697,58 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jitera.fb-multiple-envs";
 				PRODUCT_NAME = firebase_multiple_envs;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		27A8DC3A28B39CDC0096BBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E91617B567353C1885C2AB /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65QAXDY39U;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "firebase_multiple_envs staging.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jitera.fb-multiple-envs.staging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		27A8DC3B28B39CDC0096BBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2705672594D6E6441CEBB5F6 /* Pods-firebase_multiple_envsCommon-firebase_multiple_envs staging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65QAXDY39U;
+				INFOPLIST_FILE = "firebase_multiple_envs staging.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jitera.fb-multiple-envs.staging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -685,6 +908,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A8DC3928B39CDC0096BBBD /* Build configuration list for PBXNativeTarget "firebase_multiple_envs staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A8DC3A28B39CDC0096BBBD /* Debug */,
+				27A8DC3B28B39CDC0096BBBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
